@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./front/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-page">
+      <h1>Page de connexion</h1>
+      <input
+        class="main-text-input"
+        id="email"
+        type="email"
+        placeholder="youremail@gmail.com"
+        required
+      />
+      <input
+        class="main-text-input"
+        id="password"
+        type="password"
+        placeholder="******"
+        required
+      />
+      <button type="button" class="main-submit-btn" id="button">
+        Connexion
+      </button>
+    </div>
+
+    <div class="home-page">
+      <h1>Page d'accueil</h1>
+      <nav>
+        <ul>
+          <a href="./profil.html"><li class="menu">Mon Profil</li></a>
+          <a href="./brief.html"><li class="menu">Mes Briefs</li></a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="profil-page">
+      <h1>Mon Profil</h1>
+      <div>Nom</div>
+
+      <div>XXXXXXXXXXXXXXXXXXX</div>
+      <br />
+
+      <div>Prénom</div>
+      <div>XXXXXXXXXXXXXXXXXXX</div>
+      <br />
+
+      <div>Age</div>
+      <div>XXXXXXXXXXXXXXXXXXX</div>
+
+      <br />
+      <button>Modifier mes informations</button>
+    </div>
+
+    <div class="brief-page">
+      <h1>Mes Briefs</h1>
+      <div class="brief-detail">
+        <div>Brief 1</div>
+        <div>Date de création du brief</div>
+        <div>Réponse du brief</div>
+        <button class="delete-btn">Supprimer</button>
+      </div>
+      <button>Créer un nouveau brief</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
