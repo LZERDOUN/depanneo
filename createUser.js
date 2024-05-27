@@ -15,7 +15,7 @@ const User = mongoose.model("User", userSchema);
 
 const createUser = async () => {
   const salt = await bcrypt.genSalt(10);
-  const hashedPassword = await bcrypt.hash("monMotDePasse", salt);
+  const hashedPassword = await bcrypt.hash("babou", salt);
 
   const user = new User({
     email: "laura.gaguech@gmail.com",

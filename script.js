@@ -16,7 +16,7 @@ document
       .then((response) => response.json())
       .then((data) => {
         if (data.message === "Connexion réussie") {
-          document.getElementById("message").innerText = "Connexion réussie";
+          window.location.href = "./Pages/homePage.html";
         } else {
           document.getElementById("message").innerText = data.message;
         }
